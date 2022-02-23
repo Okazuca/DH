@@ -392,6 +392,9 @@ export const commands: ChatCommands = {
 		if (target.startsWith(' /me')) target = target.slice(1);
 		return this.checkChat(target + '¯\\_(ツ)_/¯');
 	},
+	a(room){
+	this.add(this.tr(room))
+	},
 	shrughelp: ['/shrug [message] - Sends the given message, if any, appended with ¯\\_(ツ)_/¯'],
 
 	tableflip(target) {
