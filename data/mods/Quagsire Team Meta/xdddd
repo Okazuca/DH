@@ -17,6 +17,6 @@ infernape: {
 		weightkg: 60,
 		color: "Red",
 		eggGroups: ["Undiscovered"],
-		requiredItem: "Infernapite",
+		requiredItem: "Infernapetite",
 		creator: "LordPxperto",
 	},
