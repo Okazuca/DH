@@ -1,0 +1,5 @@
+},
+	infernape: {
+		inherit: true,
+		otherFormes: ["Infernape-Mega"],
+		formeOrder: ["Infernape", "Infernape-Mega"],
