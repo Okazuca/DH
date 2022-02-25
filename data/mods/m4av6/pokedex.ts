@@ -2956,10 +2956,10 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		},
 	castformmega: {
 		num: 392,
-		name: "Infernape-Mega",
-		baseSpecies: "Infernape",
+		name: "Castform-Mega",
+		baseSpecies: "Castform",
 		forme: "Mega",
-		types: ["Fire", "Fighting"],
+		types: ["Normal"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 70, def: 85, spa: 95, spd: 85, spe: 115},
 		abilities: {0: "climaticchange"},
@@ -2967,7 +2967,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		weightkg: 55,
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
-		requiredItem: "megastoneh",
+		requiredItem: "protector",
 		creator: "Ausma",
 	},
 	dragapult: {
