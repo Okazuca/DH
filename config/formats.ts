@@ -21,9 +21,6 @@ export const Formats: FormatList = [
 	{
 		section: "Sw/Sh Singles",
 	},
-
-		// teambuilderFormat: 'OU',
-	},
 	{
 		name: "[Gen 8] Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
