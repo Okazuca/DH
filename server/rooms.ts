@@ -381,12 +381,7 @@ export abstract class BasicRoom {
 	 * highlight the user.
 	 */
 	addByUser(user: User, text: string): this {
-		return var emoticons = parseEmoticons(user.getIdentity(this.roomid), message);
-    if (emoticons && !room.disableEmoticons) {
-        this.addRaw(emoticons);
-    } else {
-        this.add('|c|' + user.getIdentity(this.id) + '|' + message);
-    }
+		return this.add('|c|' + user.getIdentity(this.roomid) + '|/log ' + text);
 	}
 	/**
 	 * Like addByUser, but without logging
@@ -1089,8 +1084,6 @@ export class GlobalRoomState {
 		let lastBattle;
 		try {
 			lastBattle = FS('logs/lastbattle.txt').readSync('utf8');
-			
-			
 		} catch (e) {}
 		this.lastBattle = Number(lastBattle) || 0;
 		this.lastWrittenBattle = this.lastBattle;
