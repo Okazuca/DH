@@ -641,6 +641,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	castformite: {
+		name: "Castformite",
+		spritenum: 576,
+		megaStone: "Castform-Mega",
+		megaEvolves: "Castform",
+		itemUser: ["Castform"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	cellbattery: {
 		name: "Cell Battery",
 		spritenum: 60,
