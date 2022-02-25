@@ -22,7 +22,7 @@ export const Formats: FormatList = [
 		section: "Sw/Sh Singles",
 	},
 {
-		name: "[Gen 8] Megas for All",
+		name: "[Gen 8] Quagsimons",
 		desc: ["<b>Megas for All</b>: A Pet Mod that aims to create unique Mega Evolutions for every fully evolved Pokémon. Plays like National Dex, just with more Megas.",
 		      ],
 		threads: [
