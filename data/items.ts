@@ -335,6 +335,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	banettitey: {
+		name: "Banettite Y",
+		spritenum: 582,
+		megaStone: "Banette-Mega-y",
+		megaEvolves: "Banette",
+		itemUser: ["Banette"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 668,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	beastball: {
 		name: "Beast Ball",
 		spritenum: 661,
