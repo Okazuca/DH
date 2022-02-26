@@ -1,6 +1,6 @@
 export const DefaultText: {[k: string]: DefaultText} = {
 	default: {
-		startBattle: "Battle started between [TRAINER] and [TRAINER]!",
+		startBattle: "Battle started between [TRAINER] and [TRAINER]! y por cierto lord pxperto es feo",
 		winBattle: "**[TRAINER]** won the battle!",
 		tieBattle: "Tie between [TRAINER] and [TRAINER]!",
 
