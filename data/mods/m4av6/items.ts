@@ -1849,4 +1849,18 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Grapploct, this item allows it to Mega Evolve in battle.",
 	},
+	banetitey: {
+		name: "Banettite Y",
+		spritenum: 578,
+		megaStone: "Banette-Mega-Y",
+		megaEvolves: "Banette",
+		itemUser: ["Banette"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -1121,
+		gen: 8,
+		desc: "If held by a Banette, this item allows it to Mega Evolve in battle.",
+	},
 };
