@@ -2962,7 +2962,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		types: ["Normal"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 70, def: 85, spa: 95, spd: 85, spe: 115},
-		abilities: {0: "climaticchange"},
+		abilities: {0: "Climatic Change"},
 		heightm: 1.2,
 		weightkg: 55,
 		color: "Brown",
