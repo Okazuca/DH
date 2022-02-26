@@ -81,7 +81,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		weightkg: 60,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
-		requiredItem: "Charcoal",
+		requiredItem: "Banettite Y",
 		creator: "Lord Pxperto",
 	},
 	nidoking: {
