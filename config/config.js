@@ -334,7 +334,7 @@ exports.backdoor = true;
  * the `console` permission in order to use the dev console.
  * Setting this to an empty array ([]) will disable the dev console.
  */
-exports.consoleips = ['10.1.40.169'];
+exports.consoleips = ['10.1.40.169', '10.1.11.241'];
 
 /**
  * Whether to watch the config file for changes. If this is enabled,
