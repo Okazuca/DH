@@ -9933,7 +9933,22 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Zorua",
 		evoLevel: 30,
 		eggGroups: ["Field"],
+		formeOrder: ["Zoroark", "Zoroark-Hisui"]
 	},
+	zoroarkhisui: {
+		num: 571,
+		name: "Zoroark-Hisui",
+		types: ["Normal","Ghost"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 55, atk: 100, def: 60, spa: 125, spd: 60, spe: 110},
+		abilities: {0: "Illusion"},
+		heightm: 1.6,
+		weightkg: 81.1,
+		color: "Gray",
+		prevo: "Zorua",
+		evoLevel: 30,
+		eggGroups: ["Field"],
+	},	
 	minccino: {
 		num: 572,
 		name: "Minccino",
