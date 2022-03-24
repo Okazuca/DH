@@ -9574,7 +9574,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	basculegion: {
 		num: 550,
 		name: "Basculegion",
-		types: ["Water"],
+		types: ["Water","Ghost"],
 		baseStats: {hp: 120, atk:112, def: 65, spa: 80, spd: 65, spe: 78},
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
 		heightm: 1,
