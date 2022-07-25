@@ -705,7 +705,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		shortDesc: "Heals from half of the indirect damage dealt to others.",
 		onAnyDamage(damage, target, source, effect) {
 			const pokemon = this.effectData.target;
-			if (effect.effectType !== 'Move' && target !== pokemon && effect.id !== 'leechseed') {
+			if (effect.effectType !== 'Move' && target !== pokemon) {
 				pokemon.heal(damage / 2);
 				this.add('-heal', pokemon, pokemon.getHealth, '[silent]');
 			}
