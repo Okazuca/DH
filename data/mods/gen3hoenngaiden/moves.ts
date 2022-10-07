@@ -339,7 +339,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			const moveData = {
 				name: "Doom Desire",
-				basePower: 120,
+				basePower: 140,
 				category: "Physical",
 				flags: {},
 				willCrit: false,
@@ -488,7 +488,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	fly: {
 		inherit: true,
 		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Sky Uppercut, Thunder, and Twister, and Gust and Twister have doubled power when used against it.",
-		basePower: 70,
+		basePower: 90,
 	},
 	followme: {
 		inherit: true,
@@ -549,7 +549,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	highjumpkick: {
 		inherit: true,
-		basePower: 85,
+		basePower: 130,
 		desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
 		shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
 		hasCrashDamage: true,
@@ -585,7 +585,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	jumpkick: {
 		inherit: true,
-		basePower: 70,
+		basePower: 90,
 		desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
 		shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
 		onMoveFail(target, source, move) {
@@ -598,13 +598,13 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	knockoff: {
 		inherit: true,
-		basePower: 20,
+		basePower: 65,
 		category: "Special",
 		desc: "The target's held item is lost for the rest of the battle, unless it has the Sticky Hold Ability. During the effect, the target cannot gain a new item by any means.",
 	},
 	leafblade: {
 		inherit: true,
-		basePower: 70,
+		basePower: 90,
 		category: "Special",
 	},
 	leechlife: {
@@ -724,7 +724,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	outrage: {
 		inherit: true,
 		desc: "The user spends two or three turns locked into this move and becomes confused at the end of the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, falls asleep, becomes frozen, or the attack is not successful against the target, the effect ends without causing confusion. If this move is called by Sleep Talk, the move is used for one turn and does not confuse the user.",
-		basePower: 90,
+		basePower: 120,
 		category: "Special",
 	},
 	overheat: {
@@ -734,7 +734,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	petaldance: {
 		inherit: true,
 		desc: "The user spends two or three turns locked into this move and becomes confused at the end of the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, falls asleep, becomes frozen, or the attack is not successful against the target, the effect ends without causing confusion. If this move is called by Sleep Talk, the move is used for one turn and does not confuse the user.",
-		basePower: 70,
+		basePower: 120,
 	},
 	pinmissile: {
 		inherit: true,
@@ -794,7 +794,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	rocksmash: {
 		inherit: true,
-		basePower: 20,
+		basePower: 40,
 	},
 	roleplay: {
 		inherit: true,
@@ -1111,7 +1111,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	zapcannon: {
 		inherit: true,
-		basePower: 100,
+		basePower: 130,
 	},
 	//Temporary Multi-Attack Fix
 	multiattack: {
